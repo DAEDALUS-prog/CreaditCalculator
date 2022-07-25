@@ -3,6 +3,14 @@ public class CreditCalculator {
     private static int years;
     private static int monthlyPayment;
 
+    public CreditCalculator() {
+    }
+
+    public CreditCalculator(int amount, int years) {
+        this.amount = amount;
+        this.years = years;
+    }
+
     public void setAmount(int amount) {
         this.amount = amount;
     }
